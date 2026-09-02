@@ -1,0 +1,33 @@
+# Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Local AI lab data and generated indexes
+06_ai_engineering_lab/docs/*
+!06_ai_engineering_lab/docs/.gitkeep
+06_ai_engineering_lab/index/*
+!06_ai_engineering_lab/index/.gitkeep
+
+# Project-generated charts and reports
+**/outputs/
+**/artifacts/
+
+# Notebook/editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
